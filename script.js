@@ -14,11 +14,12 @@
 	var hamburger = document.querySelector('.navbar-toggler');
 	let navBar = document.getElementById('navbarHeader');
 	hamburger.addEventListener("click", function(){ 
-		let theClass = 'collapse';
+		/*let theClass = 'collapse';
 		if(navBar.classList.contains(theClass))
 			navBar.classList.remove(theClass);
 		else
-			navBar.classList.add(theClass);
+			navBar.classList.add(theClass);*/
+		navBar.classList.toggle('collapse'); // plus court, plus simple
 	});
 	
 }
